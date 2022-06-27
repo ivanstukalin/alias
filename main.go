@@ -40,7 +40,7 @@ var startButton = tgbotapi.NewReplyKeyboard(
 )
 
 func main() {
-	bot, err := tgbotapi.NewBotAPI("TOKEN")
+	bot, err := tgbotapi.NewBotAPI("5300546673:AAEnNPuB08F_RI9BVx0s8PIQP1tHa29OtFs")
 	if err != nil {
 		log.Panic(err)
 	}
